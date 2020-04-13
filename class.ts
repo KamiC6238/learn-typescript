@@ -9,8 +9,6 @@ class Animal {
   }
 }
 
-
-
 class Cat extends Animal {
   // 在子类使用 constructor 时，必须调用super方法
   constructor (name) {
