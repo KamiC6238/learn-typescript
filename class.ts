@@ -1,6 +1,5 @@
 class Animal {
-  name: string
-
+  public name: string
   constructor (name: string) {
     this.name = name
   }
@@ -9,6 +8,8 @@ class Animal {
     return `${this.name} is running`
   }
 }
+
+
 
 class Cat extends Animal {
   // 在子类使用 constructor 时，必须调用super方法
